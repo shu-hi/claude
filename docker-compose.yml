@@ -7,8 +7,8 @@ services:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - ./:/usr/src/app
-      - /usr/src/app/node_modules
+      - ./my-app/:/usr/src/app
+      - ./.claude/:/root/.claude
     ports:
       - "5000:3000"
 

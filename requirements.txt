@@ -1,0 +1,12 @@
+pandas
+matplotlib
+numpy
+scikit-learn
+sqlalchemy
+statsmodels
+lifelines
+groq
+psycopg2-binary
+supabase
+duckdb
+pymc
